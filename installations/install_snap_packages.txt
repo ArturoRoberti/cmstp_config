@@ -1,0 +1,4 @@
+# See all available snap packages at https://snapcraft.io/store (or in the Snap Store app)
+brave
+discord
+slack

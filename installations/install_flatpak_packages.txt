@@ -1,0 +1,2 @@
+# See all available flatpak packages at https://flathub.org/home or search via 'flatpak search <keyword>'
+org.gnome.meld

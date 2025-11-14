@@ -1,0 +1,13 @@
+// See all available pip packages at https://pypi.org/ - Specify venvs with desired libraries here
+{
+  "default": [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "setuptools",
+    "ruamel.yaml",
+    "plotly",
+    "termcolor"
+  ]
+}

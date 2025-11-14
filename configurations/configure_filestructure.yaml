@@ -1,0 +1,10 @@
+# This structure will be placed into the user's home directory
+.cmds:  # Recommended: Add custom executable scripts and aliases here, then add $HOME/.cmds to PATH
+  aliases.bash: git@github.com:ArturoRoberti/cstp_config.git?file=templates/aliases.bash
+git: null
+Documents:
+  Personal:
+    CVs: null
+    IDs: null
+  General: null
+  Work: null
