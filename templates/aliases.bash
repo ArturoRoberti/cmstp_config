@@ -12,3 +12,14 @@ clip() {
         tee >($xc)
     fi
 }
+
+# Upgrade software
+alias upstuff="sudo apt update && sudo apt upgrade -y && sudo snap refresh"
+
+# Search for matching text in files
+search() {
+    # Recommended other args: -I (ignore binary files), -i (case-insensitive)
+    search_term="$1"
+    shift
+    sudo grep -r --color=always "$search_term" "$@" 2>/dev/null
+}
